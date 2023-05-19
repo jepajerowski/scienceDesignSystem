@@ -1,0 +1,31 @@
+div[role=main] > h1,div[role=main] > h2,div[role=main] > h3,div[role=main] > h4,div[role=main] > h5,div[role=main] > h6{
+	padding-bottom:.5rem;
+	padding-top:1rem;
+}
+
+.doc--color{
+	width: 1.5rem; 
+	height: 1.5rem; 
+	border: 1px solid #707070;
+	display: inline-block;
+	margin-right: .5rem;
+}
+
+.table thead th, .table thead td {
+	font-size: .75rem;
+	text-transform: uppercase;
+	letter-spacing: .02em;
+	color:#707070;
+	font-weight: 700;
+	padding: .5rem;
+}
+
+
+@font-face {
+    font-family: icomoon;
+    src: url(./fonts/icomoon-cd896f23d306ab0b45bf717072bfd670.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: block
+}
+

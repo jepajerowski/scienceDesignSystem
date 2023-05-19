@@ -1,0 +1,702 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Science.org Design System</title>
+    <meta name="description" content="A library of styles and components for Science.org">
+    <meta name="author" content="AAAS">
+    <!--<meta property="og:title" content="Science.org Design System">
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="">
+      <meta property="og:description" content="A library of styles and components for Science.org">
+      <meta property="og:image" content="image.png">
+      <link rel="icon" href="/favicon.ico">
+      <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+      <link rel="apple-touch-icon" href="/apple-touch-icon.png">-->
+    <link rel="stylesheet" href="build-f8b5b365aa7113dc2853.css">
+    <link rel="stylesheet" href="documentation.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-9" role="main">
+                <h1>Styles</h1>
+                <p>Science.org&rsquo;s design system is based on Bootstrap. See the <a href="https://bootstrapdocs.com/v3.2.0/docs/css/">Bootstrap CSS documentation</a> an introduction to the grid system and other basic Bootstrap styles.</p>
+                <h2>Colors</h2>
+                <div class="table-responsive">
+                    <table class="table table-condensed">
+                        <colgroup>
+                            <col span="2" class="col-md-3">
+                            <col class="col-md-6">
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <td><strong>primary</strong></td>
+                                <td>#ca2015</td>
+                                <td>
+                                    <div class="doc--color" style="background-color: #ca2015;">&nbsp;</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>primary-darken-7</strong></td>
+                                <td>#aa1b12</td>
+                                <td>
+                                    <div class="doc--color" style="background-color: #aa1b12;">&nbsp;</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>primary-darken-15</strong></td>
+                                <td>#85150e</td>
+                                <td>
+                                    <div class="doc--color" style="background-color: #85150e;">&nbsp;</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>white</strong></td>
+                                <td>#fff</td>
+                                <td>
+                                    <div class="doc--color border border-gray" style="background-color: #fff;">&nbsp;</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>gray</strong></td>
+                                <td>#707070</td>
+                                <td>
+                                    <div class="doc--color" style="background-color: #707070;">&nbsp;</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>gray-dark</strong></td>
+                                <td>#393939</td>
+                                <td>
+                                    <div class="doc--color" style="background-color: #393939;">&nbsp;</div>
+                                </td>
+                            </tr>
+                            <!--
+                            <tr>
+                                <td><strong>success</strong></td>
+                                <td>#158600</td>
+                                <td>
+                                    <div class="doc--color" style="background-color: #158600;">&nbsp;</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>info</strong></td>
+                                <td>#17a2b8</td>
+                                <td>
+                                    <div class="doc--color" style="background-color: #17a2b8;">&nbsp;</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>warning</strong></td>
+                                <td>#ffc107</td>
+                                <td>
+                                    <div class="doc--color" style="background-color: #ffc107;">&nbsp;</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>danger</strong></td>
+                                <td>#ea1611</td>
+                                <td>
+                                    <div class="doc--color" style="background-color: #ea1611;">&nbsp;</div>
+                                </td>
+                            </tr>-->
+                            <tr>
+                                <td><strong>light</strong></td>
+                                <td>#f8f9fa</td>
+                                <td>
+                                    <div class="doc--color" style="background-color: #f8f9fa;">&nbsp;</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>dark</strong></td>
+                                <td>#262626</td>
+                                <td>
+                                    <div class="doc--color" style="background-color: #262626;">&nbsp;</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h2>Typography</h2>
+                <h3>Body text</h3>
+                <div class="table-responsive">
+                    <table class="table">
+                        <colgroup>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th> </th>
+                                <th>Style</th>
+                                <th>Example code</th>
+                                <th>Result</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Default text style</td>
+                                <td>Roboto, 1rem (16px), #262626</td>
+                                <td><code>&lt;div&gt;The default style for text is our sans-serif font, Roboto.&lt;/div&gt;</code></td>
+                                <td>The default style for text is our sans-serif font, Roboto.</td>
+                            </tr>
+                             <tr>
+                                <th>Serif text</td>
+                                <td>PT Serif, 1.125rem (18px), #262626</td>
+                                <td><code>&lt;p&gt;Serif text is used for paragraphs within the body of a page, article, or other content.&lt;/p&gt;</code></td>
+                                <td><div class="news-article-content"><p>Serif text is used for paragraphs within the body of a page, article, or other content.</p></div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Headings -->
+                <h3 id="type-headings">Headings</h3>
+                <p>All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code>, are available.
+                    <div class="table-responsive">
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <h1>Heading 1</h1>
+                                    </td>
+                                    <td><code>&lt;h1&gt;Heading 1&lt;/h1&gt;</code></td>
+                                    <td>Bold, 2.5rem (40px)</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h2>Heading 2</h2>
+                                    </td>
+                                    <td><code>&lt;h2&gt;Heading 2&lt;/h2&gt;</code></td>
+                                    <td>Bold, 2rem (32px)</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h3>Heading 3</h3>
+                                    </td>
+                                    <td><code>&lt;h3&gt;Heading 3&lt;/h3&gt;</code></td>
+                                    <td>Bold, 1.75rem (28px)</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h4>Heading 4</h4>
+                                    </td>
+                                    <td><code>&lt;h4&gt;Heading 4&lt;/h4&gt;</code></td>
+                                    <td>Bold, 1.5rem (24px)</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h5>Heading 5</h5>
+                                    </td>
+                                    <td><code>&lt;h5&gt;Heading 5&lt;/h5&gt;</code></td>
+                                    <td>Bold, 1.25rem (20px)</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h6>Heading 6</h6>
+                                    </td>
+                                    <td><code>&lt;h6&gt;Heading 6&lt;/h6&gt;</code></td>
+                                    <td>Bold, 1rem (16px)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    Heading styles can also be applied via <code>.h1</code> through <code>.h6</code> classes. This can be helpful when the text needs to appear inline, or when the desired style differs from the heading level required by the page structure.</p>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Example code</th>
+                                <th>Result</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><code>&lt;h3&gt;Heading&lt;/h3&gt;</code></td>
+                                <td>
+                                    <h3>Heading</h3>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><code>&lt;span class="h3"&gt;Heading&lt;/span&gt;</code></td>
+                                <td>
+                                    <span class="h3">Heading</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><code>&lt;h4 class="h3"&gt;Heading&lt;/h4&gt;</code></td>
+                                <td>
+                                    <h4 class="h3">Heading</h4>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Text mix-ins -->
+                <h3 id="type-headings">Text classes</h3>
+                <h4>Font</h4>
+                <div class="table-responsive">
+                <table class="table">
+                        <colgroup>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Class</th>
+                                <th>Style applied</th>
+                                <th>Result</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>serif</td>
+                                <td><code>font-family: "PT Serif",serif;</code></td>
+                                <td><span class="serif">Lorem ipsum dolor sit amet.</span></td>
+                            </tr>
+                             <tr>
+                                <td>sans-serif</td>
+                                <td><code>font-family: "Roboto",sans-serif;</code></td>
+                                <td><span class="sans-serif">Lorem ipsum dolor sit amet.</span></td>
+                            </tr>
+                        </tbody>
+                    </table></div>
+                <h4>Text color</h4>
+                <div class="table-responsive">
+                <table class="table">
+                        <colgroup>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Class</th>
+                                <th>Color</th>
+                                <th>Result</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>text-primary</td>
+                                <td><div class="doc--color" style="background-color: #ca2015;">&nbsp;</div>#ca2015</td>
+                                <td><span class="text-primary">Lorem ipsum dolor sit amet.</span></td>
+                            </tr>
+                             <tr>
+                                <td>text-white</td>
+                                <td><div class="doc--color" style="background-color: #fff;">&nbsp;</div>#fff</td>
+                                <td class="bg-darker-gray"><span class="text-white">Lorem ipsum dolor sit amet.</span></td>
+                            </tr>
+                            
+                            <!--do we use text-light or text-dark?-->
+                            <!--
+                            <tr>
+                                <td>text-light</td>
+                                <td>#cbd3da</td>
+                                <td><span class="text-light">Lorem ipsum dolor sit amet.</span></td>
+                            </tr>                            
+                            <tr>
+                                <td>text-dark</td>
+                                <td>#262626;</td>
+                                <td><span class="text-dark">Lorem ipsum dolor sit amet.</span></td>
+                            </tr>-->
+                             <tr>
+                                <td>text-very-light-gray</td>
+                                <td><div class="doc--color" style="background-color: #f5f5f5;">&nbsp;</div>#f5f5f5</td>
+                                <td class="bg-darker-gray"><span class="text-very-light-gray">Lorem ipsum dolor sit amet.</span></td>
+                            </tr>
+                            <tr>
+                                <td>text-light-gray</td>
+                                <td><div class="doc--color" style="background-color: #dbdbdb;">&nbsp;</div>#dbdbdb</td>
+                                <td class="bg-darker-gray"><span class="text-light-gray">Lorem ipsum dolor sit amet.</span></td>
+                            </tr>
+                             <tr>
+                                <td>text-gray</td>
+                                <td><div class="doc--color" style="background-color: #757575;">&nbsp;</div>#757575</td>
+                                <td><span class="text-gray">Lorem ipsum dolor sit amet.</span></td>
+                            </tr>
+                             <tr>
+                                <td>text-dark-gray</td>
+                                <td><div class="doc--color" style="background-color: #707070;">&nbsp;</div>#707070</td>
+                                <td><span class="text-dark-gray">Lorem ipsum dolor sit amet.</span></td>
+                            </tr> 
+                            <tr>
+                                <td>text-darker-gray</td>
+                                <td><div class="doc--color" style="background-color: #595959;">&nbsp;</div>#595959</td>
+                                <td><span class="text-darker-gray">Lorem ipsum dolor sit amet.</span></td>
+                            </tr>
+                            <tr>
+                                <td>text-deep-gray</td>
+                                <td><div class="doc--color" style="background-color: #262626;">&nbsp;</div>#262626</td>
+                                <td><span class="text-deep-gray">Lorem ipsum dolor sit amet.</span></td>
+                            </tr>
+                            <tr>
+                                <td>text-black-gray</td>
+                                <td><div class="doc--color" style="background-color: #0b0b0b;">&nbsp;</div>#0b0b0b</td>
+                                <td><span class="text-black-gray">Lorem ipsum dolor sit amet.</span></td>
+                            </tr>
+                           
+                             
+                        </tbody>
+                    </table>
+                </div>
+                <h4>Text size</h4>
+                <div class="table-responsive">
+                <table class="table">
+                        <colgroup>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Class</th>
+                                <th>Size</th>
+                                <th>Result</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                             <tr>
+                                <td>text-xxs</td>
+                                <td>.625rem (10px)</td>
+                                <td><span class="text-xxs">Lorem ipsum dolor sit amet.</span></td>
+                            </tr>
+                              <tr>
+                                <td>text-xs</td>
+                                <td>.75rem (12px)</td>
+                                <td><span class="text-xs">Lorem ipsum dolor sit amet.</span></td>
+                            </tr>
+                             
+                            <tr>
+                                <td>text-sm</td>
+                                <td>.875rem (14px)</td>
+                                <td><span class="text-sm">Lorem ipsum dolor sit amet.</span></td>
+                            </tr>   
+                            <tr>
+                                <td>text-base</td>
+                                <td>1rem (16px)</td>
+                                <td><span class="text-base">Lorem ipsum dolor sit amet.</span></td>
+                            </tr>
+                            <tr>
+                                <td>text-md</td>
+                                <td>1.125rem (18px)</td>
+                                <td><span class="text-md">Lorem ipsum dolor sit amet.</span></td>
+                            </tr>
+                            <tr>
+                                <td>text-lg</td>
+                                <td>1.25rem (20px)</td>
+                                <td><span class="text-lg">Lorem ipsum dolor sit amet.</span></td>
+                            </tr>
+                            <tr>
+                                <td>text-xl</td>
+                                <td>1.5rem (24px)</td>
+                                <td><span class="text-xl">Lorem ipsum dolor sit amet.</span></td>
+                            </tr>
+                             
+                        </tbody>
+                    </table>
+                </div>
+                <p>Can use breakpoint mix-ins, e.g. text-md-lg text-xl-md</p>
+                <h4>Text transforms</h4>
+
+                <div class="table-responsive">
+                <table class="table">
+                        <colgroup>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Class</th>
+                                <th>Result</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>text-lowercase</td>
+                                <td><span class="text-lowercase">Lorem ipsum dolor sit amet.</span></td>
+                            </tr>
+                            <tr>
+                                <td>text-uppercase</td>
+                                <td><span class="text-uppercase">Lorem ipsum dolor sit amet.</span></td>
+                            </tr>
+                            <tr>
+                                <td>text-capitalize</td>
+                                <td><span class="text-capitalize">Lorem ipsum dolor sit amet.</span></td>
+                            </tr>
+                            <tr>
+                                <td>text-no-transform</td>
+                                <td><span class="text-no-transform">Lorem ipsum dolor sit amet.</span></td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+
+                <h4>Font weights</h4>
+                .font-weight-light {
+                    font-weight: 300 !important
+                }
+
+                .font-weight-lighter {
+                    font-weight: lighter !important
+                }
+
+                .font-weight-normal {
+                    font-weight: 400 !important
+                }
+
+                .font-weight-bold {
+                    font-weight: 700 !important
+                }
+
+                .font-weight-bolder {
+                    font-weight: 900 !important
+                }
+
+                .font-italic {
+                    font-style: italic !important
+                }
+                <h4>Text alignment</h4>
+                .text-monospace {
+                    font-family: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace !important
+                }
+
+                .text-justify {
+                    text-align: justify !important
+                }
+
+                .text-wrap {
+                    white-space: normal !important
+                }
+
+                .text-nowrap {
+                    white-space: nowrap !important
+                }
+
+                .text-truncate {
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap
+                }
+
+                .text-left {
+                    text-align: left !important
+                }
+
+                .text-right {
+                    text-align: right !important
+                }
+
+                .text-center {
+                    text-align: center !important
+                }
+
+
+
+                <h3>Icons</h3>
+                <p>Can be inserted via an empty <code>&lt;i&gt;</code> tag. E.g. <code>&lt;i class="icon-arrow-up"&gt;&lt;/i&gt;</code>
+                <i class="icon-id-badge"></i>
+
+<i class="icon-delete"></i>
+
+<i class="icon-affiliations-connection"></i>
+
+<i class="icon-edit"></i>
+
+<i class="icon-institution"></i>
+
+<i class="icon-ghost-jolly"></i>
+
+<i class="icon-ghost-shocked"></i>
+
+<i class="icon-ghost-shy"></i>
+
+<i class="icon-ghost"></i>
+
+<i class="icon-play-o"></i>
+
+<i class="icon-arrow-up"></i>
+
+<i class="icon-arrow-down"></i>
+
+<i class="icon-arrow-left"></i>
+
+<i class="icon-arrow-right"></i>
+
+<i class="icon-checkbox-checked"></i>
+
+<i class="icon-checkbox-unchecked"></i>
+
+<i class="icon-radio-checked"></i>
+
+<i class="icon-radio-unchecked"></i>
+
+<i class="icon-pause"></i>
+
+<i class="icon-play"></i>
+
+<i class="icon-soundoff"></i>
+
+<i class="icon-mute"></i>
+
+<i class="icon-soundon"></i>
+
+<i class="icon-error1"></i>
+
+<i class="icon-close-o"></i>
+
+<i class="icon-ok"></i>
+
+<i class="icon-checked-o"></i>
+
+<i class="icon-facebook-o"></i>
+
+<i class="icon-facebook"></i>
+
+<i class="icon-gmail"></i>
+
+<i class="icon-linkedIn-o"></i>
+
+<i class="icon-LinkedIn2"></i>
+
+<i class="icon-mail-o"></i>
+
+<i class="icon-mail"></i>
+
+<i class="icon-rss-o"></i>
+
+<i class="icon-rss"></i>
+
+<i class="icon-twitter-o"></i>
+
+<i class="icon-twitter"></i>
+
+<i class="icon-youtube-o"></i>
+
+<i class="icon-youtube"></i>
+
+<i class="icon-figure-in-text-1"></i>
+
+<i class="icon-figure-in-text-2"></i>
+
+<i class="icon-alerts"></i>
+
+<i class="icon-bell"></i>
+
+<i class="icon-bookmark"></i>
+
+<i class="icon-bookmarked"></i>
+
+<i class="icon-burger"></i>
+
+<i class="icon-cart"></i>
+
+<i class="icon-shopping-cart"></i>
+
+<i class="icon-citations"></i>
+
+<i class="icon-close"></i>
+
+<i class="icon-comments"></i>
+
+<i class="icon-bubble"></i>
+
+<i class="icon-copy"></i>
+
+<i class="icon-copyright-permissions .path1"></i>
+
+<i class="icon-copyright-permissions .path2"></i>
+
+<i class="icon-copyright-permissions .path3"></i>
+
+<i class="icon-download"></i>
+
+<i class="icon-error"></i>
+
+<i class="icon-attention"></i>
+
+<i class="icon-expand"></i>
+
+<i class="icon-extlink"></i>
+
+<i class="icon-favorites"></i>
+
+<i class="icon-star"></i>
+
+<i class="icon-figures"></i>
+
+<i class="icon-filters"></i>
+
+<i class="icon-fulltext"></i>
+
+<i class="icon-heart"></i>
+
+<i class="icon-info"></i>
+
+<i class="icon-metrics"></i>
+
+<i class="icon-minus"></i>
+
+<i class="icon-ellipsis"></i>
+
+<i class="icon-more"></i>
+
+<i class="icon-more-side"></i>
+
+<i class="icon-more-square"></i>
+
+<i class="icon-extlink-smooth"></i>
+
+<i class="icon-open-access"></i>
+
+<i class="icon-lock-open"></i>
+
+<i class="icon-orchid-id"></i>
+
+<i class="icon-pdf"></i>
+
+<i class="icon-pdf-plus"></i>
+
+<i class="icon-plus"></i>
+
+<i class="icon-references"></i>
+
+<i class="icon-back"></i>
+
+<i class="icon-return"></i>
+
+<i class="icon-sad"></i>
+
+<i class="icon-search"></i>
+
+<i class="icon-sections"></i>
+
+<i class="icon-frame-settings"></i>
+
+<i class="icon-share"></i>
+
+<i class="icon-play-square"></i>
+
+<i class="icon-supplement"></i>
+
+<i class="icon-clip"></i>
+
+<i class="icon-table"></i>
+
+<i class="icon-track"></i>
+
+<i class="icon-user-o"></i>
+
+<i class="icon-view-options"></i>
+
+<i class="icon-eye"></i>
+
+<i class="icon-eye-off"></i>
+
+<i class="icon-zoom-in"></i>
+
+<i class="icon-zoom-out"></i>
+
+<i class="icon-connection"></i>
+
+<i class="icon-open_access"></i>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
